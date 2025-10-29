@@ -1,1 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
 
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data files
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.csv
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Dagster
+.dagster/
+dagster_home/
+logs/
+storage/
+
+# Telegram session
+*.session
+*.session-journal
+
+# Testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentation
+docs/_build/
+site/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backups
+*.bak
+*.backup
+*.tmp
+
+# Large files
+*.log
+*.zip
+*.tar.gz
+*.rar
+
+# Secrets
+secrets/
+credentials/
+*.key
+*.pem
